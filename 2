@@ -1,0 +1,11 @@
+s=input("Enter the string:")
+def palindrome():
+    r=s[::-1]
+    d=s
+    d=d.replace(" ","")
+    r=r.replace(" ","")
+    if d==r:
+        print("Entered string is palindrome.")
+    else:
+        print("Entered string is not palindrome.")
+palindrome()
